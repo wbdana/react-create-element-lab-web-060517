@@ -16,46 +16,9 @@ const meInReact =
       )
     );
 
-
-
-
-//////////////////
-// const list =
-//   React.createElement('div', {},
-//     React.createElement('h1', {}, 'My favorite ice cream flavors'),
-//     React.createElement('ul', {},
-//       [
-//         React.createElement('li', {}, 'Chocolate'),
-//         React.createElement('li', {}, 'Vanilla'),
-//         React.createElement('li', {}, 'Banana')
-//       ]
-//     )
-//   );
-//
-// ReactDOM.render(
-//   list,
-//   document.getElementById('root')
-// );
-////////
-
 ReactDOM.render(
   meInReact,
   document.getElementById('root')
 );
 
 export default meInReact
-
-
-
-//
-// <div class="me">
-//   <h1>An Awesome Person</h1>
-//   <p>Who is learning React</p>
-//
-//   <ul class="my-interests">
-//     <li>JavaScript</li>
-//     <li>React</li>
-//     <li>Movies</li>
-//     <li>Ice cream</li>
-//   </ul>
-// </div>
